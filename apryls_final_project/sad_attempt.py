@@ -22,17 +22,18 @@ judgy_python("bat")
 
 def judgy_python (animal):
     name_len = len(animal)    
-    If name_len <=1: 
+    if name_len <= 1: 
         response="Are you even trying?"
-    Elif name_len <= 3:
+    elif name_len <= 3:
         response="Embarassing choice"
-    Elif name_len <= 6:
+    elif name_len <= 6:
         response="Interesting..."
-    Elif name_len <= 10:
+    elif name_len <= 10:
         response="Very original"
-    Elif name_len <= 15:
+    elif name_len <= 15:
         response="I guess that's cool"
-    Else:
+    else:
         response="That's not even real"
-    Return response
+    return response
 judgy_python("bat")
+judgy_python("23")
