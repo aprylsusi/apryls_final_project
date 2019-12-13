@@ -27,6 +27,3 @@ def judgy_python (animal):
         response= "Please enter a text response"
     return response 
 
-#These were just for testing and to show how to call the function
-#judgy_python('carttoogf')
-#judgy_python(23)
