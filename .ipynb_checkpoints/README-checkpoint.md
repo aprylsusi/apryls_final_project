@@ -12,3 +12,5 @@ This package incorporates user defined functions, nested if then else statements
 
 Future fixes and add ons for this package would be to correctly identify character/string versions of numbers, add in another argument to be fed into the function, which item you want judged (i.e. color, food, team, etc.), and add in a random aspect to the feedback received.
 
+Guidance for pytest was obtained from https://docs.pytest.org/en/latest/
+
